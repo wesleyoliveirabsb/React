@@ -1,0 +1,16 @@
+A estrutura do react é baseada em componentes
+esses componentes são função que podem ser criadas e editadas dentro do app.js
+depois que criado um componente pode ser chamado quantas vezes for preciso
+
+
+
+Embora ambos trabalhem com react, o mecanismo do Create React App (cra) e do next são diferentes
+o cra tem um arquivo html e ele faz auterações baseadas em componenetes esse sistema é muito diferente no next
+o next já tem dentro do seu index.js todas as informações gerais sendo basicamente um arquivo html dentro do index.js
+mas a grande diferença é que podemos fazer as manipulações já dentro do arquivo sem precisar de componentes mas também pode usar componentes
+
+para aprendermos react primeiro precisamos aprender a utilizar esses componentes e fazer a estilização de tal
+
+em seguida podemos aprender sobre as propriedades e como trazer propriedades para esse componente
+
+componentes são funções, essas funções retornam "html" conhecidos como jsx

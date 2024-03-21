@@ -1,22 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+function Componente(){
+  //esse return tem que ser feito com () e não {} /
+  return(
+      <div>
+        <button>Componente de botão!!!</button>
+        Este é o meu primeiro componente
+      </div>
+  )
+}
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Olá mundo
+        <Componente></Componente>
+        <Componente></Componente>
+
+        <Componente></Componente>
+
       </header>
     </div>
   );
