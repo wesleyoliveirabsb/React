@@ -14,3 +14,32 @@ para aprendermos react primeiro precisamos aprender a utilizar esses componentes
 em seguida podemos aprender sobre as propriedades e como trazer propriedades para esse componente
 
 componentes são funções, essas funções retornam "html" conhecidos como jsx
+
+
+o readme explica tudo que foi instalado
+
+package mostra tudo que o programa rodou para fazer as instalações 
+
+gitignore é uma pasta que mostra o que não vai subir no git quando for apresentar o projeto
+
+node_modules é uma pasta descartável, ela contem as dependencias do react que rodam por trás dos panos para que a gente consiga fazer as coisas
+    ela é descartável pelo motivo que sempre que a gente baixar o projeto em um pc novo ela vai ser instalada ao iniciarmos o projeto
+
+as pastas centrais são public e source (src)
+    a public guarda o index.html, a unica pagina que o app vai ter
+
+o css pode ser modificado no app.css e index.css
+
+1 elemento pai por componente se precisar de multiplos elementos é melhor usar uma div
+
+o html dentro de um jsx é extremamente restrito nenhum erro é aceito as tags sempre tem que ser fechadas
+
+o elemento pai pode ser uma <> </> que vai ser uma div generica que o jsx considera um elemento pagina
+
+o elemento pai comunmente também pode ser o section  ]
+
+caso o elemento seja muito pequeno você também pode trabalhar com um return in-line tirando o ( ) e adicionando direto a tag, mas a recomendação é seguir o padrão
+
+você também pode adicionar funções ou constantes ao seu componente
+
+dentro do retorno usa html, fora do retorno usa javascript até onde eu entendi
