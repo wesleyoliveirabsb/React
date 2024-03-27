@@ -1,0 +1,12 @@
+.constante{
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin: 20px;
+    width: 80vw;
+}
+.title{
+    background-color: crimson;
+}
+.title p{
+    color:black;
+}

@@ -43,3 +43,19 @@ caso o elemento seja muito pequeno você também pode trabalhar com um return in
 você também pode adicionar funções ou constantes ao seu componente
 
 dentro do retorno usa html, fora do retorno usa javascript até onde eu entendi
+
+para estilizar componentes utilizamos o module.css que funciona igual um css mas ele precisa ser importado para o componente
+    dessa forma podemos atribuir classes de dentro do module.css normalmente
+
+para atribuirmos uma classe no react é um pouco diferente do que no html.
+    normalmente usamos class="NomeDaClasse" no react é necessário usar className ={styles.nomeDaClasse}
+
+o estilo dentro de um module.css tem mais prioridade do que o estilo global da pagina no app.css ou index.css
+
+uma forma fácil de usar é atribuir o module.css global e editar todas as tags lá de dentro como se foss eum grande aquivo css
+
+até agora aprendemos a fazer coisas mas ainda não aprendemos a reutilizalas, um componente só é bom até a gente precisar de um parecido
+    para esse tipo de coisa nós usamos as props
+
+
+props são como as tags do html
